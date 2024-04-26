@@ -43,5 +43,6 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.MapHub<UserHub>("hubs/usercount");
-
+app.MapHub<EmployeeHub>("hubs/employee");
+app.MapHub<PartyHub>("hubs/party");
 app.Run();

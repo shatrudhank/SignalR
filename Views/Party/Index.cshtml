@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Employee Page";
+}
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="card card-employee">
+                <div class="card-header text-bg-dark">Subscriber List</div>
+                <div class="card-body">
+                    <div>
+                        <button type="button" class="btn btn-secondary" id="congress">
+                            Congress
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="bjp">
+                            Bjp
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="aap">
+                            Aap
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-employee">
+                <div class="card-header text-bg-dark">Subscribe</div>
+                <div class="card-body">
+                    <div>
+                        <button type="button" class="btn btn-secondary " id="subscribe-congress">
+                            Congress
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="subscribe-bjp">
+                            Bjp
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="subscribe-aap">
+                            Aap
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-employee">
+                <div class="card-header text-bg-dark">Unsubscribe</div>
+                <div class="card-body">
+                    <div>
+                        <button type="button" class="btn btn-secondary" id="unsubscribe-congress">
+                            Congress
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="unsubscribe-bjp">
+                            Bjp
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="unsubscribe-aap">
+                            Aap
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-employee">
+                <div class="card-header text-bg-dark">Trigger Notification</div>
+                <div class="card-body">
+                    <div>
+                        <button type="button" class="btn btn-secondary " id="notify-congress">
+                            Congress
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="notify-bjp">
+                            Bjp
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="notify-aap">
+                            Aap
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script src="~/js/party.js"></script>
+}
+

@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Employee Page";
+}
+<div class="container-fluid">
+
+    <div class="center">
+        <div class="card card-employee">
+                <div class="card-header text-bg-dark">Employee Statistic</div>
+                <div class="card-body">
+                   <div>
+                        <button type="button" class="btn btn-secondary ">
+                            Permanent Employee
+                            <span class="badge bg-dark" id="permanentEmployee">0</span>
+                        </button>
+                        <button type="button" class="btn btn-secondary">
+                            Contract Employee
+                            <span class="badge bg-dark" id="contactEmployee">0</span>
+                        </button>
+                   </div>
+                   <div>
+                    <a href="https://localhost:7153/api/Employee/0" target="_blank">Increment Permanent</a>
+                    <a href="https://localhost:7153/api/Employee/1" target="_blank">Increment Contract</a>
+
+                   </div>
+                 
+               
+                </div>
+            </div>
+        </div>
+</div>
+@section Scripts {
+
+    <script src="~/js/employee.js"></script>
+}
+

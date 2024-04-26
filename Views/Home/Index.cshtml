@@ -2,21 +2,22 @@
     ViewData["Title"] = "Home Page";
 }
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3 ">
-            <div class="card  mb-3 center">
-                <div class="card-header text-bg-dark">Total Views</div>
+    <div class="center">
+            <div class="card card-user">
+                <div class="card-header text-bg-dark">Website visitor info</div>
                 <div class="card-body">
-                    <button type="button" class="btn btn-secondary">
+                    <button type="button" class="btn btn-secondary ">
                         Total Views 
                         <span class="badge bg-dark" id="totalViews">0</span>
                     </button>
                     <button type="button" class="btn btn-secondary">
-                        Total Users 
+                        Total Users
                         <span class="badge bg-dark" id="totalUsers">0</span>
                     </button>
                 </div>
             </div>
-        </div>
     </div>
 </div>
+@section Scripts{
+    <script src="~/js/user.js"></script>
+}

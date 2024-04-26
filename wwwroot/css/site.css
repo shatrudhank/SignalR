@@ -27,3 +27,17 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.btn{
+    margin:2%;
+}
+.card-user{
+    width:330px
+}
+.card-employee {
+    width: 530px
+}
+
+.card-body{
+    min-height:90px;
+}
